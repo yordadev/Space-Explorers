@@ -9,6 +9,8 @@ This website is an a simple React App using NextJS and Tailwind to showcase info
 ## Usage
 
 ```sh
+git clone https://github.com/yordadev/Space-Explorers.git
+npm install
 npm run dev
 ```
 
