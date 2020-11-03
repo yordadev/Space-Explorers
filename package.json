@@ -1,0 +1,33 @@
+{
+  "name": "space-explorers",
+  "version": "1.1.0",
+  "description": "simple React App using NextJS and Tailwind to showcase information on the Tesla Roadster that was launched into space by SpaceX, as well as showcasing launches by Space X to include upcomming launches.",
+  "main": "index.js",
+  "scripts": {
+    "analyze": "npm run analyze:tailwind-css-class-order",
+    "fix": "npm run fix:tailwind-css-class-order",
+    "dev": "next",
+    "build": "next build",
+    "export": "npm run build && next export",
+    "start": "next start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yordadev/SpaceExplorers.git"
+  },
+  "author": "Yorda",
+  "license": "MIT",
+  "bugs": {
+    "url": " "
+  },
+  "homepage": "https://yorda.dev",
+  "dependencies": {
+    "next": "10.0.0",
+    "react": "16.14.0",
+    "react-dom": "16.14.0"
+  },
+  "devDependencies": {
+    "tailwindcss": "1.9.6"
+  }
+}
